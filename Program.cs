@@ -27,8 +27,8 @@ namespace CardWorker
             w.MixDeck(2, "third");
             Deck third = w.Get("third");
 
-            //foreach (var c in third.cards)
-            //    Console.WriteLine($"{c.Lear.Value}, {c.Rank.Value}");
+            foreach (var c in third.Cards)
+                Console.WriteLine($"{c.Lear}, {c.Rank}");
 
             Deck first = w.Get("first");
             Deck second = w.Get("second");

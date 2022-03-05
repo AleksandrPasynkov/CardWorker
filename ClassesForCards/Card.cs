@@ -8,10 +8,10 @@ namespace CardWorker
 {
     public class Card
     {
-        public Rank Rank { set; get; }
-        public Lear Lear { set; get; }
+        public Runks Rank { set; get; }
+        public Lears Lear { set; get; }
 
-        public Card(Lear lear, Rank rank)
+        public Card(Lears lear, Runks rank)
         {
             this.Lear = lear;
             this.Rank = rank;
